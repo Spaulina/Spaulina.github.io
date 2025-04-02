@@ -1,4 +1,32 @@
----
-layout: post
-title: Title
----
+title: "Mi Página Web"
+description: "Página web oficial del proyecto."
+author: "Paulina"
+baseurl: "" # Deja vacío si es un repositorio de usuario/organización
+url: "https://usuario.github.io" # Reemplázalo con la URL real
+
+# Tema
+remote_theme: jekyll/minima
+
+# Configuración de Markdown
+markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navegación personalizada (opcional)
+navigation:
+  - title: "Inicio"
+    url: "/"
+  - title: "Sobre mí"
+    url: "/about"
+  - title: "Proyectos"
+    url: "/projects"
+  - title: "Contacto"
+    url: "/contact"
+
+# Configuración extra (opcional)
+highlighter: rouge
+permalink: pretty
